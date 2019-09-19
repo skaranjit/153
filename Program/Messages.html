@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Messages</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Messages</strong></big></big> (04/15/2019)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cskara%5Conedrive%20-%20mnscu%5Ccsis%20153%5Cprogram%5Cmessages.py">c:\users\skara\onedrive - mnscu\csis 153\program\messages.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="Messages.html#Message">Message</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Messages.html#SMS_Inbox">SMS_Inbox</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Message">class <strong>Message</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Message">Message</a>(DateTime,&nbsp;Content,&nbsp;Recipient)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Message-__init__"><strong>__init__</strong></a>(self, DateTime, Content, Recipient)</dt><dd><tt>Description:&nbsp;Initialize&nbsp;the&nbsp;attributes&nbsp;of&nbsp;message&nbsp;<a href="builtins.html#object">object</a>&nbsp;<br>
+Precondition:&nbsp;DateTime&nbsp;needs&nbsp;to&nbsp;be&nbsp;date&nbsp;<a href="builtins.html#object">object</a>,&nbsp;sender&nbsp;needs&nbsp;to&nbsp;be&nbsp;string,content&nbsp;needs&nbsp;to&nbsp;be&nbsp;string,Recipient&nbsp;needs&nbsp;to&nbsp;be&nbsp;string.<br>
+PostCondition:&nbsp;Initialize&nbsp;the&nbsp;attributes</tt></dd></dl>
+
+<dl><dt><a name="Message-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Description:&nbsp;Will&nbsp;return&nbsp;the&nbsp;formatted&nbsp;string&nbsp;of&nbsp;the&nbsp;attributes<br>
+Precondition:&nbsp;NONE<br>
+PostCondition:&nbsp;NONE</tt></dd></dl>
+
+<dl><dt><a name="Message-getRead"><strong>getRead</strong></a>(self)</dt><dd><tt>Description:&nbsp;returns&nbsp;Read&nbsp;(boolean&nbsp;value)<br>
+Precondition:&nbsp;none<br>
+PostCondition:&nbsp;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Message-getSize"><strong>getSize</strong></a>(self)</dt><dd><tt>Description:<br>
+Precondition:<br>
+PostCondition:</tt></dd></dl>
+
+<dl><dt><a name="Message-getcontent"><strong>getcontent</strong></a>(self)</dt><dd><tt>Description:&nbsp;will&nbsp;return&nbsp;content&nbsp;attribute<br>
+Precondition:&nbsp;none<br>
+PostCondition:&nbsp;none</tt></dd></dl>
+
+<dl><dt><a name="Message-getdateTime"><strong>getdateTime</strong></a>(self)</dt><dd><tt>Description:&nbsp;Will&nbsp;return&nbsp;dateTime&nbsp;atribute&nbsp;of&nbsp;message&nbsp;<a href="builtins.html#object">object</a><br>
+Precondition:&nbsp;None<br>
+PostCondition:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Message-getmessageID"><strong>getmessageID</strong></a>(self)</dt><dd><tt>Description:&nbsp;Will&nbsp;return&nbsp;message&nbsp;id&nbsp;attribute<br>
+Precondition:None<br>
+PostCondition:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Message-getnumofMessage"><strong>getnumofMessage</strong></a>()</dt><dd><tt>Description:return&nbsp;numofMessage&nbsp;attribute<br>
+Precondition:None<br>
+PostCondition:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Message-getrecipient"><strong>getrecipient</strong></a>(self)</dt><dd><tt>Description:&nbsp;will&nbsp;return&nbsp;recipient&nbsp;attribute&nbsp;of&nbsp;message&nbsp;<a href="builtins.html#object">object</a>.<br>
+Precondition:None<br>
+PostCondition:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Message-getsender"><strong>getsender</strong></a>(self)</dt><dd><tt>Description:&nbsp;Will&nbsp;return&nbsp;sender&nbsp;attribute&nbsp;of&nbsp;message&nbsp;<a href="builtins.html#object">object</a><br>
+Precondition:&nbsp;None<br>
+PostCondition:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Message-setRead"><strong>setRead</strong></a>(self)</dt><dd><tt>Description:&nbsp;updates&nbsp;the&nbsp;read&nbsp;attribute&nbsp;to&nbsp;True&nbsp;<br>
+Precondition:&nbsp;none<br>
+PostCondition:&nbsp;updates&nbsp;the&nbsp;read&nbsp;attribute&nbsp;to&nbsp;True</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SMS_Inbox">class <strong>SMS_Inbox</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="SMS_Inbox-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Description:&nbsp;Initialize&nbsp;SMS_INBOX&nbsp;<a href="builtins.html#object">object</a><br>
+Precondition:&nbsp;none<br>
+PostCondition:&nbsp;Initialize&nbsp;messageLists&nbsp;to&nbsp;empty</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Description:&nbsp;Prints&nbsp;out&nbsp;the&nbsp;formatted&nbsp;attributes&nbsp;of&nbsp;sms&nbsp;inbox&nbsp;<a href="builtins.html#object">object</a>.<br>
+Precondition:&nbsp;NONE<br>
+PostCondition:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-addToInbox"><strong>addToInbox</strong></a>(self, MessageObject)</dt><dd><tt>Description:&nbsp;It&nbsp;will&nbsp;append&nbsp;message&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;messages&nbsp;list.<br>
+Precondition:&nbsp;MessageObject&nbsp;needs&nbsp;to&nbsp;message&nbsp;Object&nbsp;created&nbsp;from&nbsp;<a href="#Message">Message</a>&nbsp;class.<br>
+PostCondition:&nbsp;MessageList&nbsp;will&nbsp;be&nbsp;updated</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-allBeforeSomeNumDays"><strong>allBeforeSomeNumDays</strong></a>(self, daysOld)</dt><dd><tt>Description:&nbsp;finds&nbsp;the&nbsp;messages&nbsp;befor&nbsp;specific&nbsp;days.&nbsp;Returns&nbsp;newlist&nbsp;of&nbsp;found&nbsp;messages<br>
+Precondition:&nbsp;days&nbsp;needs&nbsp;to&nbsp;be&nbsp;number&nbsp;of&nbsp;days<br>
+PostCondition:&nbsp;none</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-deleteMessagebydate"><strong>deleteMessagebydate</strong></a>(self, daysOld)</dt><dd><tt>Description:&nbsp;&nbsp;Updates&nbsp;<a href="#Message">Message</a>&nbsp;List<br>
+Precondition:&nbsp;daysold&nbsp;needs&nbsp;to&nbsp;be&nbsp;number&nbsp;of&nbsp;days<br>
+PostCondition:&nbsp;update&nbsp;messageList&nbsp;and&nbsp;numMessageeInbox</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-deleteMessagebyphone"><strong>deleteMessagebyphone</strong></a>(self, phone)</dt><dd><tt>Description:&nbsp;&nbsp;Updates&nbsp;<a href="#Message">Message</a>&nbsp;List<br>
+Precondition:&nbsp;phone&nbsp;needs&nbsp;to&nbsp;be&nbsp;string<br>
+PostCondition:&nbsp;update&nbsp;messageList&nbsp;and&nbsp;numMessageeInbox</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-findMessagebyDate"><strong>findMessagebyDate</strong></a>(self, dt)</dt><dd><tt>Description:&nbsp;finds&nbsp;the&nbsp;messages&nbsp;by&nbsp;date<br>
+Precondition:&nbsp;dt&nbsp;needs&nbsp;to&nbsp;be&nbsp;date&nbsp;<a href="builtins.html#object">object</a>&nbsp;<br>
+PostCondition:&nbsp;none</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-findMessagebyPhone"><strong>findMessagebyPhone</strong></a>(self, phone)</dt><dd><tt>Description:&nbsp;finds&nbsp;the&nbsp;messages&nbsp;by&nbsp;phone<br>
+Precondition:&nbsp;phone&nbsp;should&nbsp;be&nbsp;a&nbsp;string<br>
+PostCondition:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="SMS_Inbox-sortedInboxbyDate"><strong>sortedInboxbyDate</strong></a>(self)</dt><dd><tt>Description:&nbsp;Sort&nbsp;out&nbsp;the&nbsp;messages&nbsp;list&nbsp;by&nbsp;latest&nbsp;date<br>
+Pre&nbsp;Condition:&nbsp;none<br>
+Post&nbsp;Condition:&nbsp;Messages&nbsp;list&nbsp;will&nbsp;be&nbsp;updated.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Suman&nbsp;Karanjit</td></tr></table>
+</body></html>

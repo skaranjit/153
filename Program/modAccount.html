@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module modAccount</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>modAccount</strong></big></big> (03/27/2019)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cskara%5Conedrive%20-%20mnscu%5Ccsis%20153%5Cprogram%5Cmodaccount.py">c:\users\skara\onedrive - mnscu\csis 153\program\modaccount.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="modAccount.html#Account">Account</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="modAccount.html#CDSavingAcct">CDSavingAcct</a>
+</font></dt><dt><font face="helvetica, arial"><a href="modAccount.html#CheckingAcct">CheckingAcct</a>
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Account">class <strong>Account</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Account">Account</a>(acctType,&nbsp;openBal,&nbsp;dateOpened)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Account-__init__"><strong>__init__</strong></a>(self, acctType, openBal, dateOpened)</dt><dd><tt>PreCondition&nbsp;:&nbsp;acctType&nbsp;is&nbsp;string,&nbsp;openBal&nbsp;is&nbsp;a&nbsp;float&nbsp;number&nbsp;and&nbsp;dateOpened&nbsp;is&nbsp;a&nbsp;date&nbsp;<a href="builtins.html#object">object</a>.<br>
+PostCondition:&nbsp;attributes&nbsp;are&nbsp;initialized&nbsp;(&nbsp;acctNum,&nbsp;acctType,openBal,CurBal,&nbsp;DateOpened)<br>
+Description:Creates&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;type&nbsp;<a href="#Account">Account</a></tt></dd></dl>
+
+<dl><dt><a name="Account-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;string&nbsp;version&nbsp;of&nbsp;attribures&nbsp;values.</tt></dd></dl>
+
+<dl><dt><a name="Account-getAcctNum"><strong>getAcctNum</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(integer)&nbsp;of&nbsp;acctNum&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-getAcctType"><strong>getAcctType</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(string)&nbsp;of&nbsp;the&nbsp;acctType&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-getCurBalance"><strong>getCurBalance</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(float)&nbsp;of&nbsp;the&nbsp;curBal&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-getDateOpened"><strong>getDateOpened</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(dateObject)&nbsp;of&nbsp;the&nbsp;dateOpened&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-getNumCheckingAccts"><strong>getNumCheckingAccts</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;numCheckingAccts&nbsp;(number&nbsp;of&nbsp;checking&nbsp;accounts&nbsp;in&nbsp;integer)attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-getNumSavingsAccts"><strong>getNumSavingsAccts</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;NumSavingsAccts(number&nbsp;of&nbsp;saving&nbsp;accounts&nbsp;in&nbsp;integer)&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-getOpenBalance"><strong>getOpenBalance</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(float)&nbsp;of&nbsp;the&nbsp;openBal&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-getTotalAssets"><strong>getTotalAssets</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;totalAssets&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="Account-setCurBalance"><strong>setCurBalance</strong></a>(self, newBalance)</dt><dd><tt>PreCondition&nbsp;:&nbsp;newBalance&nbsp;must&nbsp;be&nbsp;a&nbsp;float&nbsp;number.<br>
+PostCondition:&nbsp;attribute&nbsp;curBal&nbsp;is&nbsp;updated&nbsp;to&nbsp;newBalance<br>
+Description:&nbsp;Updates&nbsp;the&nbsp;state&nbsp;of&nbsp;the&nbsp;<a href="#Account">Account</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;curBal&nbsp;to&nbsp;newBalance.</tt></dd></dl>
+
+<dl><dt><a name="Account-updateTotalAssets"><strong>updateTotalAssets</strong></a>(self, checking, saving)</dt><dd><tt>PreCondition&nbsp;:&nbsp;Requires&nbsp;2&nbsp;<a href="builtins.html#object">object</a>&nbsp;of&nbsp;Checking&nbsp;<a href="#Account">Account</a>&nbsp;and&nbsp;Saving&nbsp;<a href="#Account">Account</a>.<br>
+PostCondition:&nbsp;attribute&nbsp;totalAssets&nbsp;is&nbsp;updated.<br>
+Description:&nbsp;Updates&nbsp;totalAssets&nbsp;to&nbsp;added&nbsp;value&nbsp;of&nbsp;attributes(curBalance)&nbsp;from&nbsp;3&nbsp;objects(self,checking,savaing)</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="CDSavingAcct">class <strong>CDSavingAcct</strong></a>(<a href="modAccount.html#Account">Account</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#CDSavingAcct">CDSavingAcct</a>(acctType,&nbsp;openBal,&nbsp;dateOpened,&nbsp;maturityDate)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="modAccount.html#CDSavingAcct">CDSavingAcct</a></dd>
+<dd><a href="modAccount.html#Account">Account</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="CDSavingAcct-__init__"><strong>__init__</strong></a>(self, acctType, openBal, dateOpened, maturityDate)</dt><dd><tt>PreCondition&nbsp;:&nbsp;acctType&nbsp;is&nbsp;string,&nbsp;openBal&nbsp;is&nbsp;a&nbsp;float&nbsp;number&nbsp;and&nbsp;dateOpened&nbsp;&amp;&nbsp;maturityDate&nbsp;are&nbsp;date&nbsp;<a href="builtins.html#object">object</a><br>
+PostCondition:&nbsp;attributes&nbsp;are&nbsp;initialized&nbsp;(&nbsp;acctNum,&nbsp;acctType,openBal,CurBal,&nbsp;DateOpened,&nbsp;maturityDate)<br>
+Description:&nbsp;Creates&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;of&nbsp;type&nbsp;CDSavings&nbsp;<a href="#Account">Account</a>.</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;string&nbsp;version&nbsp;of&nbsp;attribures&nbsp;values.</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-closeAcct"><strong>closeAcct</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;Updates&nbsp;totalAssets,totalInterestEarned,curBal,OpenBal&nbsp;and&nbsp;numsavingAccts&nbsp;attributes<br>
+Description:&nbsp;Returns&nbsp;string&nbsp;version&nbsp;of&nbsp;attribures&nbsp;values.</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-computeInterest"><strong>computeInterest</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;Updates&nbsp;curBal&nbsp;and&nbsp;totalInterestEarned&nbsp;attributes.<br>
+Description:&nbsp;calculates&nbsp;and&nbsp;returns&nbsp;amount&nbsp;of&nbsp;interest&nbsp;and&nbsp;also&nbsp;updates&nbsp;curBalace&nbsp;and&nbsp;totalInterestEarned&nbsp;by&nbsp;adding&nbsp;amount&nbsp;of&nbsp;interest</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="modAccount.html#Account">Account</a>:<br>
+<dl><dt><a name="CDSavingAcct-getAcctNum"><strong>getAcctNum</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(integer)&nbsp;of&nbsp;acctNum&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-getAcctType"><strong>getAcctType</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(string)&nbsp;of&nbsp;the&nbsp;acctType&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-getCurBalance"><strong>getCurBalance</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(float)&nbsp;of&nbsp;the&nbsp;curBal&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-getDateOpened"><strong>getDateOpened</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(dateObject)&nbsp;of&nbsp;the&nbsp;dateOpened&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-getNumCheckingAccts"><strong>getNumCheckingAccts</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;numCheckingAccts&nbsp;(number&nbsp;of&nbsp;checking&nbsp;accounts&nbsp;in&nbsp;integer)attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-getNumSavingsAccts"><strong>getNumSavingsAccts</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;NumSavingsAccts(number&nbsp;of&nbsp;saving&nbsp;accounts&nbsp;in&nbsp;integer)&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-getOpenBalance"><strong>getOpenBalance</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(float)&nbsp;of&nbsp;the&nbsp;openBal&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-getTotalAssets"><strong>getTotalAssets</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;totalAssets&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-setCurBalance"><strong>setCurBalance</strong></a>(self, newBalance)</dt><dd><tt>PreCondition&nbsp;:&nbsp;newBalance&nbsp;must&nbsp;be&nbsp;a&nbsp;float&nbsp;number.<br>
+PostCondition:&nbsp;attribute&nbsp;curBal&nbsp;is&nbsp;updated&nbsp;to&nbsp;newBalance<br>
+Description:&nbsp;Updates&nbsp;the&nbsp;state&nbsp;of&nbsp;the&nbsp;<a href="#Account">Account</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;curBal&nbsp;to&nbsp;newBalance.</tt></dd></dl>
+
+<dl><dt><a name="CDSavingAcct-updateTotalAssets"><strong>updateTotalAssets</strong></a>(self, checking, saving)</dt><dd><tt>PreCondition&nbsp;:&nbsp;Requires&nbsp;2&nbsp;<a href="builtins.html#object">object</a>&nbsp;of&nbsp;Checking&nbsp;<a href="#Account">Account</a>&nbsp;and&nbsp;Saving&nbsp;<a href="#Account">Account</a>.<br>
+PostCondition:&nbsp;attribute&nbsp;totalAssets&nbsp;is&nbsp;updated.<br>
+Description:&nbsp;Updates&nbsp;totalAssets&nbsp;to&nbsp;added&nbsp;value&nbsp;of&nbsp;attributes(curBalance)&nbsp;from&nbsp;3&nbsp;objects(self,checking,savaing)</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="modAccount.html#Account">Account</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="CheckingAcct">class <strong>CheckingAcct</strong></a>(<a href="modAccount.html#Account">Account</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#CheckingAcct">CheckingAcct</a>(acctType,&nbsp;openBal,&nbsp;dateOpened)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="modAccount.html#CheckingAcct">CheckingAcct</a></dd>
+<dd><a href="modAccount.html#Account">Account</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="CheckingAcct-__init__"><strong>__init__</strong></a>(self, acctType, openBal, dateOpened)</dt><dd><tt>PreCondition&nbsp;:&nbsp;acctType&nbsp;is&nbsp;string,&nbsp;openBal&nbsp;is&nbsp;a&nbsp;float&nbsp;number&nbsp;and&nbsp;dateOpened&nbsp;is&nbsp;date&nbsp;<a href="builtins.html#object">object</a><br>
+PostCondition:&nbsp;attributes&nbsp;are&nbsp;initialized&nbsp;(&nbsp;acctNum,&nbsp;acctType,openBal,CurBal,&nbsp;DateOpened)<br>
+Description:&nbsp;Creates&nbsp;an&nbsp;<a href="builtins.html#object">object</a>&nbsp;of&nbsp;type&nbsp;Checking&nbsp;<a href="#Account">Account</a>.</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;string&nbsp;version&nbsp;of&nbsp;attribures&nbsp;values.</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-deposit"><strong>deposit</strong></a>(self, amt)</dt><dd><tt>PreCondition&nbsp;:&nbsp;amt&nbsp;should&nbsp;be&nbsp;float&nbsp;number&nbsp;or&nbsp;integer.<br>
+PostCondition:&nbsp;update&nbsp;curBal&nbsp;and&nbsp;totalDepositAmts<br>
+Description:&nbsp;Returns&nbsp;string&nbsp;version&nbsp;of&nbsp;attribures&nbsp;values.</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-updateCurrentBalance"><strong>updateCurrentBalance</strong></a>(self, amt)</dt><dd><tt>PreCondition&nbsp;:&nbsp;amt&nbsp;should&nbsp;be&nbsp;float&nbsp;number&nbsp;or&nbsp;integer.<br>
+PostCondition:&nbsp;update&nbsp;curBal&nbsp;and&nbsp;totalAssets<br>
+Description:&nbsp;Returns&nbsp;string&nbsp;version&nbsp;of&nbsp;attribures&nbsp;values.</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-withdrawal"><strong>withdrawal</strong></a>(self, amt)</dt><dd><tt>PreCondition&nbsp;:&nbsp;amt&nbsp;should&nbsp;be&nbsp;float&nbsp;number&nbsp;or&nbsp;integer.<br>
+PostCondition:&nbsp;update&nbsp;curBal&nbsp;and&nbsp;totalWithdrawalAmts<br>
+Description:&nbsp;Returns&nbsp;string&nbsp;(sucessful&nbsp;or&nbsp;unsucessful).</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="modAccount.html#Account">Account</a>:<br>
+<dl><dt><a name="CheckingAcct-getAcctNum"><strong>getAcctNum</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(integer)&nbsp;of&nbsp;acctNum&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-getAcctType"><strong>getAcctType</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(string)&nbsp;of&nbsp;the&nbsp;acctType&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-getCurBalance"><strong>getCurBalance</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(float)&nbsp;of&nbsp;the&nbsp;curBal&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-getDateOpened"><strong>getDateOpened</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(dateObject)&nbsp;of&nbsp;the&nbsp;dateOpened&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-getNumCheckingAccts"><strong>getNumCheckingAccts</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;numCheckingAccts&nbsp;(number&nbsp;of&nbsp;checking&nbsp;accounts&nbsp;in&nbsp;integer)attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-getNumSavingsAccts"><strong>getNumSavingsAccts</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;NumSavingsAccts(number&nbsp;of&nbsp;saving&nbsp;accounts&nbsp;in&nbsp;integer)&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-getOpenBalance"><strong>getOpenBalance</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value(float)&nbsp;of&nbsp;the&nbsp;openBal&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-getTotalAssets"><strong>getTotalAssets</strong></a>(self)</dt><dd><tt>PreCondition&nbsp;:&nbsp;None<br>
+PostCondition:&nbsp;None<br>
+Description:&nbsp;Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;totalAssets&nbsp;attribute</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-setCurBalance"><strong>setCurBalance</strong></a>(self, newBalance)</dt><dd><tt>PreCondition&nbsp;:&nbsp;newBalance&nbsp;must&nbsp;be&nbsp;a&nbsp;float&nbsp;number.<br>
+PostCondition:&nbsp;attribute&nbsp;curBal&nbsp;is&nbsp;updated&nbsp;to&nbsp;newBalance<br>
+Description:&nbsp;Updates&nbsp;the&nbsp;state&nbsp;of&nbsp;the&nbsp;<a href="#Account">Account</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;curBal&nbsp;to&nbsp;newBalance.</tt></dd></dl>
+
+<dl><dt><a name="CheckingAcct-updateTotalAssets"><strong>updateTotalAssets</strong></a>(self, checking, saving)</dt><dd><tt>PreCondition&nbsp;:&nbsp;Requires&nbsp;2&nbsp;<a href="builtins.html#object">object</a>&nbsp;of&nbsp;Checking&nbsp;<a href="#Account">Account</a>&nbsp;and&nbsp;Saving&nbsp;<a href="#Account">Account</a>.<br>
+PostCondition:&nbsp;attribute&nbsp;totalAssets&nbsp;is&nbsp;updated.<br>
+Description:&nbsp;Updates&nbsp;totalAssets&nbsp;to&nbsp;added&nbsp;value&nbsp;of&nbsp;attributes(curBalance)&nbsp;from&nbsp;3&nbsp;objects(self,checking,savaing)</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="modAccount.html#Account">Account</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Suman&nbsp;Karanjit</td></tr></table>
+</body></html>

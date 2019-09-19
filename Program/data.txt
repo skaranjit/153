@@ -1,0 +1,25 @@
+Professor Jones
+Chem 101
+Jill Jones, Rod Robertson, Becky Brown
+
+Professor Caulfield
+Math 201
+Rod Robertson, Cal Coolidge, Jill Jones, Becky Brown
+Professor Green
+Bio 320
+Jill Jones, Becky Brown, Sue Stickley
+Professor Zobridge
+Bio 220
+Rod Robertson, Becky Brown, Sue Stickley, Jill Jones
+Professor Stone
+Math 300
+Jill Jones, Becky Brown, Cal Coolidge, Ann Amber
+
+
+
+Professor Zobridge
+Bio 220
+Rod Robertson, Becky Brown, Sue Stickley, Jill Jones
+Professor Stone
+Math 300
+Jill Jones, Becky Brown, Cal Coolidge, Ann Amber
